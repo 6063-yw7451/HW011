@@ -14,6 +14,7 @@ FSM:
    - Transitions between states based on potentiometer readings and button presses.
    - Displays success by flashing the green LED in a specific pattern.
    - Displays failure by turning on the yellow LED for a second and printing "mission failed" to the Serial Monitor.
+
 States:
    - State -1: Initial state, checks if the user is turning the potentiometer left.
    - State 0: Checks for a double click on Button 1 while turning left.
@@ -22,6 +23,7 @@ States:
    - State 3: Checks for potentiometer value and Button 1 press.
    - State 4: Success state, flashes the green LED.
    - Failure: Yellow LED turns on for a second if failure conditions are met in any state.
+
 Steps to Success:
 1. Turning Left
 2. Double Click Button 1 while turning left
