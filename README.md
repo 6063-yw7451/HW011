@@ -4,7 +4,7 @@ This code involves a potentiometer (an analog input), two buttons, and two LEDs.
 
 ## Process
 Here is the FSM Drawing.
-![FSM](./Finite State Machine.png)
+![FSM](./FSM.png)
 Here is the schematic drawing of my circuit.
 ![Circuit](./Circuit.png)
 
